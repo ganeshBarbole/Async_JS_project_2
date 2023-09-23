@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color:wheat;
+}
+
+.placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+table,th,td{
+    border: 1px solid white;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 2px;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    width: 250px;
+
+}
